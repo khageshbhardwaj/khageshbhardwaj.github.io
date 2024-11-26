@@ -684,41 +684,42 @@
           </div> -->
 
 
-          <!-- Tracking a moving object using Visual Servoing -->
-          <!-- <div class="col s12 m6 l6">
+          <!-- YouBot Robot Controller -->
+           <div class="col s12 m6 l6">
             <div class="card medium">
               <div class="card-image waves-effect waves-block waves-light">
-                <img alt="Visual Servoing" src="/assets/img/project_gifs/visual_tracking.gif" style="height: 100%; width: 100%" class="activator" />
+                <img alt="Visual Servoing" src="/assets/img/project_gifs/Youbot_controller.png" style="height: 100%; width: 100%" class="activator" />
               </div>
               <div class="card-content">
-                <span class="card-title activator teal-text hoverline">Visual Servoing<i
+                <span class="card-title activator teal-text hoverline">YouBot Mobile Robot Controller<i
                     class="details-style right">Details ></i></span>
                 <p>
-                  Image-based Visual Servoing – Tracking a moving object
+                  YouBot's control for pick-and-place tasks using trajectory planning, feedback control, and CoppeliaSim simulation
                 </p>
               </div>
-              <div class="card-reveal"> -->
+              <div class="card-reveal">
                 <!-- TODO: change this -- only close button -->
                 <!-- <span class="card-title brown-text">Accomplishments<i class="mdi-navigation-close right"></i></span> -->
-                <!-- <span class="card-title teal-text"><small>Accomplishments</small><i
+                 <span class="card-title teal-text"><small>Accomplishments</small><i
                     class="mdi-navigation-close right"></i></span>
                 <ul>
-                  <li><b>Skills:</b> Computer Vision, Deep Learning, Pose Estimation, PyBullet, OpenGL, OpenCV, Roboticstoolbox-Python, PyTorch</li>
-                  <li>Using Image Jacobian to get the desired end-effector position
-                  </li>
-                  <li>Proportional controller and Inverse Kinematics to track the desired position
-                  </li>
+                  <li><b>Skills:</b> MATLAB, CoppeliaSim, Robotics programming, Trajectory Planning, Control System (PID) Tuning, Simulation, and Motion Analysis</li>
+                  <li>Developed control software for youBot, integrating a Kinematics Simulator, Reference Trajectory Generator, and Feedforward-Feedback Controller.
+                  <li>Enabled mobile manipulation capabilities, allowing the robot to navigate, pick up objects, and place them precisely at target locations.</li>
+                  <li>Designed and fine-tuned control systems to ensure smooth and accurate robot movements.</li>
+                  <li>Demonstrated the functionality in CoppeliaSim, simulating real-world tasks like object handling and placement.</li>
+                  <li>Showcased the system’s performance through tasks involving optimized trajectory planning and feedback control.</li>
                 </ul>
                 <div class="card-action">
                   <a aria-label="Visit the GitHub repo for project"
-                    href="#" target="_blank"
+                    href="https://github.com/khageshbhardwaj/YouBot-Mobile-Robot-Controller" target="_blank"
                     data-position="top" data-tooltip="View Source"
                     class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
                       class="fa fa-github"></i></a>
                 </div>
               </div>
             </div>
-          </div> -->
+          </div>
 
           <!-- Stochastic Optimal Control -->
           <div class="col s12 m6 l6">
@@ -1089,7 +1090,7 @@
                 <img alt="Phone Detection" src="/assets/img/project_gifs/objectdetection.jpg" style="height: 100%; width: 100%" class="activator" />
               </div>
               <div class="card-content">
-                <span class="card-title activator teal-text hoverline">Phone Detector<i
+                <span class="card-title activator teal-text hoverline">Phone Location Detector<i
                     class="details-style right">Details ></i></span>
                 <p>
                   Phone Detection Pipeline using Deep Learning (Object Detection)
@@ -1100,11 +1101,13 @@
                     class="mdi-navigation-close right"></i></span>
                 <ul>
                   <li><b>Skills:</b> Computer Vision, Deep Learning, Machine Learning, PyTorch, OpenCV, RCNN, Git, Version-Control </li>
-                  <li>Developed a PyTorch and OpenCV-based phone detection pipeline, achieving >95% accuracy on a labeled dataset using 
-                    a customized Faster R-CNN model with ResNet-50 backbone and FastRCNNPredictor</li>
-                  <li>Performed mini-batch training, with 0.005 learning rate, 0.9 momentum, weight decay, SGD optimizer, and GPU acceleration</li>
-                  <li>Achieved >90% detection accuracy on the test dataset by engineering a custom dataset class for efficient data management, 
-                    including image resizing, normalization, and bounding box extraction for precise phone localization</li>
+                  <li>Developed a PyTorch and OpenCV-based phone detection pipeline, achieving >85% accuracy on a labeled dataset using 
+                    a customized CNN model.</li>
+                    <li>Preprocessed the data by image resizing to 64x64 pixels, normalization to [0, 1] range, and 75:25 train-test split.</li>
+                    <li>Performed mini-batch training for 50 epochs with batch size of 8, using Adam optimizer and Mean Squared Error loss function.</li>
+                  <li>CNN architecture involved with 3 connected layers followed by ReLU activation, batch normalization, max pooling, dropout rate of 0.3 and 3 fully connected layers.</li>
+                  <li>Achieved >80% detection accuracy on the test dataset by engineering a custom dataset class for efficient data management, 
+                    including image resizing, and normalization for precise phone localization</li>
 
                 </ul>
                 <div class="card-action">
